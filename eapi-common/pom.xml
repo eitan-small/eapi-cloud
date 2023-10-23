@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>eapi-common-core</module>
+        <module>eapi-common-security</module>
     </modules>
 
 </project>
