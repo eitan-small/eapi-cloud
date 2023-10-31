@@ -23,6 +23,11 @@ public class CommonResult<T> implements Serializable {
     public static final int ERROR = HttpStatus.ERROR;
 
     /**
+     * 警告
+     */
+    public static final int WARN = HttpStatus.WARN;
+
+    /**
      * 状态码
      */
     private int code;
@@ -59,6 +64,18 @@ public class CommonResult<T> implements Serializable {
 
     public static <T> CommonResult<T> error(int code, String msg) {
         return restResult(null, code, msg);
+    }
+
+    public static <T> CommonResult<T> warn() {
+        return restResult(null, WARN, Constants.EMPTY_STRING);
+    }
+
+    public static <T> CommonResult<T> warn(T data) {
+        return restResult(data, WARN, Constants.EMPTY_STRING);
+    }
+
+    public static <T> CommonResult<T> warn(T data, String msg) {
+        return restResult(data, WARN, msg);
     }
 
     private static <T> CommonResult<T> restResult(T data, int code, String msg) {

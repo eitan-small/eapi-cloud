@@ -9,11 +9,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>eapi-common</artifactId>
+    <artifactId>eapi-modules</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>eapi-common-core</module>
-        <module>eapi-spring-boot-starter-web</module>
-    </modules>
 
+    <modules>
+        <module>eapi-module-system</module>
+    </modules>
 </project>

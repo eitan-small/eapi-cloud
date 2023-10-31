@@ -79,6 +79,8 @@ public class HttpStatus {
      */
     public static final int ERROR = 500;
 
+    public static final String ERRORMSG = "系统内部错误";
+
     /**
      * 接口未实现
      */

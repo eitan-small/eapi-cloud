@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/eapi-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/eapi-common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/eapi-common-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/eapi-common-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/eapi-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-common/eapi-spring-boot-starter-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-common/eapi-spring-boot-starter-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eapi-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/eapi-module-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/eapi-module-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/eapi-module-system-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/eapi-module-system-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/eapi-module-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eapi-modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

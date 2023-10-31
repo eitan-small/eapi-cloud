@@ -9,17 +9,19 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>eapi-common-security</artifactId>
+    <artifactId>eapi-spring-boot-starter-web</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.eapi</groupId>
             <artifactId>eapi-common-core</artifactId>
         </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
+
 </project>

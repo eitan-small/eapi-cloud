@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.eapi</groupId>
-        <artifactId>eapi-cloud</artifactId>
+        <artifactId>eapi-modules</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>eapi-common</artifactId>
+    <artifactId>eapi-module-system</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>eapi-common-core</module>
-        <module>eapi-spring-boot-starter-web</module>
-    </modules>
 
+    <modules>
+        <module>eapi-module-system-api</module>
+        <module>eapi-module-system-server</module>
+    </modules>
 </project>
