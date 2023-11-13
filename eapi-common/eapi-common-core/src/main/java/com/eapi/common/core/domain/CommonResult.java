@@ -35,7 +35,7 @@ public class CommonResult<T> implements Serializable {
     /**
      * 返回信息
      */
-    private String msg;
+    private String message;
 
     /**
      * 数据对象
@@ -82,7 +82,7 @@ public class CommonResult<T> implements Serializable {
         CommonResult<T> apiResult = new CommonResult<>();
         apiResult.setCode(code);
         apiResult.setData(data);
-        apiResult.setMsg(msg);
+        apiResult.setMessage(msg);
         return apiResult;
     }
 }

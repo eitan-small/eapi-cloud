@@ -12,6 +12,17 @@
     <artifactId>eapi-module-system-server</artifactId>
 
     <dependencies>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- mapstruct -->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+        </dependency>
+
         <!-- SpringCloud Alibaba Nacos -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -33,6 +44,10 @@
         <dependency>
             <groupId>com.eapi</groupId>
             <artifactId>eapi-spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.eapi</groupId>
+            <artifactId>eapi-spring-boot-starter-mybatis</artifactId>
         </dependency>
     </dependencies>
 

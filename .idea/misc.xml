@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/eapi-common/eapi-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/eapi-common/eapi-spring-boot-starter-redis/pom.xml" />
       </set>
     </option>
   </component>

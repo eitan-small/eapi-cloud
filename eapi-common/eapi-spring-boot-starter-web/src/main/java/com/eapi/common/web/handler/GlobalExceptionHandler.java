@@ -99,7 +99,8 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = ServiceException.class)
     public CommonResult<?> serviceExceptionHandler(ServiceException ex) {
         log.info("[serviceExceptionHandler]", ex);
-        return CommonResult.error(ex.getCode(), ex.getMessage());
+        Integer code = ex.getCode();
+        return Objects.isNull(code) ? CommonResult.error(ex.getMessage()) : CommonResult.error(ex.getCode(), ex.getMessage());
     }
 
     /**

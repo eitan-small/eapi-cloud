@@ -14,6 +14,7 @@
     <modules>
         <module>eapi-common-core</module>
         <module>eapi-spring-boot-starter-web</module>
+        <module>eapi-spring-boot-starter-mybatis</module>
     </modules>
 
 </project>
